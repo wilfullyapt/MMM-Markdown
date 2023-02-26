@@ -1,0 +1,31 @@
+{
+  "name": "mmm-Markdown",
+  "version": "1.0.0",
+  "description": "MDisplay markdown files on your MagicMirror",
+  "main": "MMM-Markdown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmawhinney1990/MMM-Markdown.git"
+  },
+  "author": "William Mawhinney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wmawhinney1990/MMM-Markdown/issues"
+  },
+  "keywords": [
+    "magicmirror",
+    "module",
+    "markdown",
+    "productivity"
+  ],
+  "homepage": "https://github.com/wmawhinney1990/MMM-Markdown#readme",
+  "dependencies": {
+    "cheerio": "latest",
+    "fs": "latest",
+    "path": "latest",
+    "showdown": "^2.1.0"
+  }
+}

@@ -1,0 +1,118 @@
+
+.MMM-Markdown {             /*  Honestly, just copy this section */
+    --htag-margin: .3em;    /*  Update the root variables as needed */
+    --htag-padding: .1em;
+    --h1-size: 24px;
+    --h1-color: blue;
+    --h2-size: 22px;
+    --h2-color: pink;
+    --h3-size: 20px;
+    --h3-color: green;
+    --h4-size: 18px;
+    --h4-color: orange;
+    --h5-size: 16px;
+    --h5-color: purple;
+    --h6-size: 16px;
+    --h6-color: red;
+    --tablecell-padding: 3px;
+    --tableheader-color: blue;
+    --corner-max-width: 53% ;
+    --centered-max-width: 61%;
+    --bared-max-width: 72%;
+    --default-text-color: white;
+    height: auto;
+    max-height: auto;
+    text-align: left;
+    font-size: var(--h6-size);
+    color: var(--default-text-color);
+}
+
+
+.region.top.bar > .container > .MMM-Markdown {
+    max-width: var(--bared-max-width);
+    margin: auto;
+}
+.region.bottom.bar > .container > .MMM-Markdown {
+    max-width: var(--bared-max-width);
+    margin: auto;
+}
+.region.top.left > .container > .MMM-Markdown {
+    max-width: var(--corner-max-width);
+    float: left;
+}
+.region.top.right > .container > .MMM-Markdown {
+    max-width: var(--corener-max-width);
+    float: right;
+}
+.region.upper.third > .container > .MMM-Markdown {
+    max-width: var(--centered-max-width);
+    margin: auto;
+}
+.region.middle.center > .container > .MMM-Markdown {
+    max-width: var(--centered-max-width);
+    margin: auto;
+}
+.region.lower.third > .container > .MMM-Markdown {
+    max-width: var(--centered-max-width);
+    margin: auto;
+}
+.region.bottom.left > .container > .MMM-Markdown {
+    max-width: var(--corner-max-width);
+    float: left;
+}
+.region.bottom.right > .container > .MMM-Markdown {
+    max-width: var(--corner-max-width);
+    float: right;
+}
+
+.MMM-Markdown h1 {
+    margin: var(--htag-margin);
+    padding: var(--htag-padding);
+    color: var(--h1-color);
+    font-size: var(--h1-size);
+}
+.MMM-Markdown h2 {
+    margin: var(--htag-margin);
+    padding: var(--htag-padding);
+    color: var(--h2-color);
+    font-size: var(--h2-size);
+}
+.MMM-Markdown h3 {
+    margin: var(--htag-margin);
+    padding: var(--htag-padding);
+    color: var(--h3-color);
+    font-size: var(--h3-size);
+}
+.MMM-Markdown h4 {
+    margin: var(--htag-margin);
+    padding: var(--htag-padding);
+    color: var(--h4-color);
+    font-size: var(--h4-size);
+}
+.MMM-Markdown h5 {
+    margin: var(--htag-margin);
+    padding: var(--htag-padding);
+    color: var(--h5-color);
+    font-size: var(--h5-size);
+}
+.MMM-Markdown h6 {
+    margin: var(--htag-margin);
+    padding: var(--htag-padding);
+    color: var(--h6-color);
+    font-size: var(--h6-size);
+}
+
+.MMM-Markdown table {
+    border-collapse: collapse;
+}
+.MMM-Markdown th, td {
+    padding: var(--tablecell-padding);
+    border: 1px gray solid;
+}
+.MMM-Markdown th {
+    color: var(--tableheader-color);
+}
+.MMM-Markdown .task-list-item > input[type=checkbox] {
+    accent-color: blue;
+}
+
