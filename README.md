@@ -34,7 +34,7 @@ Here is an example usage in the modules array in the `config/config.js` file:
     }
 }
 ```
-**Note:** `filename.md` shoud be located in `MMM-Markdown/modules/` directory.
+**Note:** `filename.md` shoud be located in `MMM-Markdown/markdown/` directory.
 
 ## Configuration options
 
