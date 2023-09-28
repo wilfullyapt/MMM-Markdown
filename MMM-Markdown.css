@@ -105,7 +105,8 @@
 .MMM-Markdown table {
     border-collapse: collapse;
 }
-.MMM-Markdown th, td {
+.MMM-Markdown th, 
+.MMM-Markdown td {
     padding: var(--tablecell-padding);
     border: 1px gray solid;
 }
